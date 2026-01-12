@@ -201,7 +201,7 @@ header {
     float: left;
     width: 100%;
 }
-.item-header {
+.item-header, .item-footer {
     margin: 0 auto;
     width: 720px;
 }
@@ -216,7 +216,11 @@ header {
     font-weight: 700;
     color: #476DF2;
 }
-.item-header a:after {
+.item-footer a {
+    font-weight: 700;
+    color: #476DF2;
+}
+.item-header a:after, .item-footer a:after {
     border-bottom: 2px solid #476DF2;
 }
 .brand {
@@ -353,7 +357,7 @@ h1 {
     width: 100%;
     margin-top: 30px;
 }
-.item-header {
+.item-header, .item-footer {
     margin: 0 auto;
     width: 100%;
 }
